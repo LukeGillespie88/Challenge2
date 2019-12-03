@@ -11,9 +11,9 @@ if(isset($_GET['value'])){
 		if($_GET['value'] % 7 == 0){
 			///Check to see if the value is multiple of 9
 			if($_GET['value'] % 9 == 0){
-				$Result->Result = "C";
-			}else{
 				$Result->Result = "CN";
+			}else{
+				$Result->Result = "C";
 			}
 		///Check to see if the value is multiple of 9
 		}else if($_GET['value'] % 9 == 0){
